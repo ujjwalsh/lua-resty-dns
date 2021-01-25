@@ -7,7 +7,9 @@ language: c
 
 compiler:
   - gcc
-
+arch:
+  - amd64
+  - ppc64le
 addons:
   apt:
     packages:
